@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 0; j < i; j++) {
+                document.write('*')
+            }
+            document.write('<br/>')
+        }
+
+        // for(var i=1; i<=5;i++){
+        //     for(var j=i; j<=5;j++){
+        //         document.write('*')
+        //     }
+        //     document.write('<br/>')
+        // }
+
+
+        // let promise = new Promise(function (resolve, reject) {
+        //     resolve('Promise resolve')
+        // })
+
+        // promise
+        //     .then(function (successMessage) {
+        //         console.log(successMessage);
+        //     })
+        //     .catch(function (errorMessage) {
+        //         //error handler function is invoked
+        //         console.log(errorMessage);
+        //     });
+
+
+            // Promise:
+            // let promise = new Promise(function(resolve,reject){
+            //     resolve('Promise Resolved')
+            // })
+
+            // promise
+            // .then(function(success){
+            //     console.log(success);
+            // })
+            // .catch(function(error){
+            //     console.log(error);
+            // })
+
+
+            //async await:
+            // async function myDisap(){
+            //     let promise = new Promise(function(resolve,reject){
+            //         resolve('Promise Resolved successfully')
+            //     })
+            //     document.getElementById('demo').innerHTML=await promise
+            // }
+            // myDisap()
+    </script>
+</body>
+
+</html>
